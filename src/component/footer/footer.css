@@ -1,0 +1,8 @@
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footer h5 {
+  font-family: POP-700;
+  text-align: center;
+}

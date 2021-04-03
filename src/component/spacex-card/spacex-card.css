@@ -1,0 +1,50 @@
+.card {
+  width: 22%;
+  flex-grow: 10;
+  margin-right: 10px;
+  max-width: 30%;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.card__image {
+  display: flex;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: lightgray;
+  justify-content: center;
+}
+.card__image img {
+  width: 100%;
+  object-fit: contain;
+}
+.card__details {
+  margin-top: 10px;
+}
+.card__details h1 {
+  color: blue;
+  font-family: POP-700;
+  font-size: 18px;
+}
+.card__details h2 {
+  font-size: 16px;
+  font-family: POP-700;
+}
+.card__details h2 span {
+  color: gray;
+  font-family: POP-400;
+  font-size: 14px;
+}
+.card__mission .bread {
+  margin-right: 10px;
+  font-size: 12px;
+  font-family: POP-700;
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 50%;
+    max-width: unset;
+  }
+}
